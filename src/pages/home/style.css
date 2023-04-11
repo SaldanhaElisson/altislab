@@ -1,0 +1,17 @@
+
+
+#title{
+    display: flex;
+}
+
+
+.material-symbols-outlined{
+    color: var(---neutral-color-dark-05);
+    margin-left: 1.75rem;
+    margin-right: 1rem;
+}
+
+#title > h3 {
+    font-weight: 700;
+    color: var(---neutral-color-dark-05);
+}

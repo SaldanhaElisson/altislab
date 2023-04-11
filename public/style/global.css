@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+
+    --font-titles: 'Noto Sans', sans-serif;
+    --font-phrases: 'Open Sans', sans-serif;
+   
+    ---color-white: #FAFAFA;
+    ---color-dark: #1A1A1A;
+    ---color-dark-transparent: #ffffff2d;
+    ---neutral-color-dark-04:  #919191
+    ---neutral-color-dark-05: #888888;
+    ---neutral-color-light-01: #AFAFAF;
+    ---neutral-color-light-02: #C6C6C6;
+    ---status-color-critical-dark: #88000D;
+    ---status-color-critical-base: #CC1414;
+    ---status-color-ok-dark: #0E800D;
+    ---neutral-color-dark-05: #5D5D5D;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-titles);
+}
+
+p {
+    font-family: var(--font-phrases);
+}
+
+
+#main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
