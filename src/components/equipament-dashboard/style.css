@@ -1,0 +1,31 @@
+
+#pier-icon{
+    width: 6.25rem;
+    height: 6.25rem;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#equipament-data {
+    width: 100%;
+}
+
+#equipament-data > div {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 500;
+    color: var(---neutral-color-dark-05);
+
+    margin-bottom: 0.625rem;
+
+    width: 100%;
+}
+
+#equipament-data > div:first-child{
+    color:  var(---data-color-equipament-dashboard);
+
+    font-size: 1.125rem;
+    margin-bottom: 0.938rem;
+}

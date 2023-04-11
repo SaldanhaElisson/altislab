@@ -1,5 +1,7 @@
 import "./style.css"
 
+import "../request-card/style.css"
+import "../equipament-dashboard/style.css"
 import "../../pages/home/style.css"
 
 

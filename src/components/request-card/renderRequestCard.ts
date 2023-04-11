@@ -58,14 +58,11 @@ export default function renderRequestCard(
             </a>
           </div>   
 
-
       </div>
   
     </details>  
   
     </div>
-  
-  
-  
+
   `;
   }
