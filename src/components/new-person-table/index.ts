@@ -38,7 +38,33 @@ const newPersonTable = `
         <td>NXIS91-23</td>
         <td>02/02/2023</td>
     </tr>
-</table> 
+
+    <tr align="center">
+        <td>Fulano</td>
+        <td>(85) 99999-9999</td>
+        <td>Desenvolvedor</td>
+        <td>Projeto 1</td>
+        <td>Fulano@gmail.com</td>
+        <td>Fulano@altislab.com</td>
+        <td>Fulano@wda.com</td>
+        <td>NXIS91-23</td>
+        <td>02/02/2023</td>
+    </tr>
+
+    <tr align="center">
+        <td>Fulano</td>
+        <td>(85) 99999-9999</td>
+        <td>Desenvolvedor</td>
+        <td>Projeto 1</td>
+        <td>Fulano@gmail.com</td>
+        <td>Fulano@altislab.com</td>
+        <td>Fulano@wda.com</td>
+        <td>NXIS91-23</td>
+        <td>02/02/2023</td>
+    </tr>
+    
+    
+    </table> 
 
 `;
 

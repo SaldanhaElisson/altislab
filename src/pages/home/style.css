@@ -3,14 +3,10 @@ h3 {
     color: var(---neutral-color-dark-05);
 }
 
-
 #home-sections  section:first-of-type {
     display: flex;
    
 }
-
-
-
 
 #equipment-dashboard {
 

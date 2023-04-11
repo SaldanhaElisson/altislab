@@ -2,11 +2,15 @@ import "./style.css"
 
 import "../request-card/style.css"
 import "../equipament-dashboard/style.css"
-import "../nav-page-lasts-requests/style.css"
+import "../nav-pages-cars/style.css"
 import "../new-person-table/style.css"
 import "../../pages/home/style.css"
 
 import "../filter-group/style.css"
+import "../box-cards/style.css"
+import "../card/style.css"
+import "../card-project-content/style.css"
+
 import "../../pages/projects/style.css"
 
 document.querySelector<HTMLDivElement>('#content')!.innerHTML +=` 

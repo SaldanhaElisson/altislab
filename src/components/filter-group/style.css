@@ -39,6 +39,7 @@ i{
 details[open] > #inputs-group {
     position: absolute;
 
+    background-color: var(---color-white);
     padding:1.25rem ;
 }
 

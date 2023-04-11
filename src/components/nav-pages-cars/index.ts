@@ -1,4 +1,4 @@
-const navPageLastsRequests = `
+const navPagesCards = `
     <div id="pagination">
         <div id="prev"> 
          &lt
@@ -17,4 +17,4 @@ const navPageLastsRequests = `
     </div>
 `;
 
-export default navPageLastsRequests;
+export default navPagesCards;

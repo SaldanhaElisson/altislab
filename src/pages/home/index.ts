@@ -1,5 +1,5 @@
 import equipamentDashboard from "../../components/equipament-dashboard";
-import navPageLastsRequests from "../../components/nav-page-lasts-requests";
+import navPagesCards from "../../components/nav-pages-cars";
 import newPersonTable from "../../components/new-person-table";
 import renderRequestCard from "../../components/request-card/renderRequestCard";
 
@@ -19,7 +19,7 @@ const homeContent: string = `
 
         ${renderRequestCard("Negado", "5d 12h 30min", "Fulano 3")}
 
-        ${navPageLastsRequests}
+        ${navPagesCards}
       </div>
 
       <div id="equipment-dashboard"> 
@@ -36,7 +36,7 @@ const homeContent: string = `
 
       ${newPersonTable}
 
-      ${navPageLastsRequests}
+      ${navPagesCards}
 
     </section>  
 
