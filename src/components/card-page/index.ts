@@ -5,6 +5,8 @@ import "../equipament-dashboard/style.css"
 import "../nav-page-lasts-requests/style.css"
 import "../new-person-table/style.css"
 import "../../pages/home/style.css"
+
+import "../filter-group/style.css"
 import "../../pages/projects/style.css"
 
 document.querySelector<HTMLDivElement>('#content')!.innerHTML +=` 
