@@ -1,0 +1,27 @@
+table {
+    width: 83.313rem;
+
+    font-family: var(--font-phrases);
+    font-size: 0.875rem;
+
+    margin-left: 1rem;
+
+    border-collapse:collapse;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+tr {
+    height: 2.5rem;
+}
+
+th {  
+    border: none;
+    background-color: var(---neutral-color-dark-05);
+    
+    color: var(---color-white);
+
+}
+
+td {
+    justify-content: center;
+}

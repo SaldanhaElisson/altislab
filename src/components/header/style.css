@@ -24,6 +24,10 @@ header {
 
     background-color: #BEDCBC;
     border-radius: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+
+    cursor: pointer;
+
 }
 
 #box-first-letter-user > p {

@@ -1,5 +1,5 @@
 
-#title{
+#title-section-one{
     display: flex;
 }
 .material-symbols-outlined{
@@ -8,17 +8,13 @@
     margin-right: 1rem;
 }
 
-#title > h3 {
-    font-weight: 700;
-    color: var(---neutral-color-dark-05);
-}
 
 .card-request > summary{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    width: 56.25rem;
+    width: 68.813rem;
     height: 5rem;
 
     margin-top: 0.875rem;
@@ -103,7 +99,8 @@ summary::-webkit-details-marker {
 
 .card-details {
 
-    width: 56.25rem;
+    width: 68.813rem;
+
 
     margin-left: 1rem;
 

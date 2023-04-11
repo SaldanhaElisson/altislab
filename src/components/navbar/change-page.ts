@@ -15,12 +15,13 @@ export default function changePage(element: HTMLMenuElement | null){
 
         const page = whatIsPage(pages, target.innerHTML)
 
-        if( typeof page == 'string'){
+        if(typeof page == "string" && pages.includes(page)){
             changeContent(page);
         }
-          
-        
+          return;
     })
+
+    changeContent();
 }
 
 function whatIsPage ( data:string[], element:string ): boolean | string{
@@ -34,7 +35,7 @@ function whatIsPage ( data:string[], element:string ): boolean | string{
 }
 
 
-function changeContent (page: string):void {
+function changeContent (page = "Início"):void {
     document.querySelector<HTMLDivElement>('#title-card-page')!.innerHTML = page
 
     if(!contentPages[page]){
