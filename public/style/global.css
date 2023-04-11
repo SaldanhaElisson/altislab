@@ -14,17 +14,19 @@
     ---color-white: #FAFAFA;
     ---color-dark: #1A1A1A;
     ---color-dark-transparent: #ffffff2d;
-    ---neutral-color-dark-04:  #919191
-    ---neutral-color-dark-05: #888888;
+    ---neutral-color-dark-04:  #919191;
+    ---neutral-color-dark-06: #888888;
     ---neutral-color-light-01: #AFAFAF;
     ---neutral-color-light-02: #C6C6C6;
     ---status-color-critical-dark: #88000D;
-    ---status-color-critical-base: #CC1414;
+    ---status-color-critical-base: #472929;
     ---status-color-ok-dark: #0E800D;
+    ---link-card-footer-details-color: #87C984;
     ---neutral-color-dark-05: #5D5D5D;
+    ---pedding-color: #3E5055
 }
 
-h1, h2, h3 {
+h1, h2, h3,  h4 {
     font-family: var(--font-titles);
 }
 
@@ -39,3 +41,7 @@ p {
     height: 100vh;
 }
 
+
+.active {
+    position: absolute;
+}

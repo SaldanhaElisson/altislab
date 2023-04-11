@@ -6,9 +6,7 @@ interface IContentPages  {
     [key: string]: string
 }
 
-
 const contentPages:IContentPages = { Início: homeContent}
-
 
 export default function changePage(element: HTMLMenuElement | null){
     
@@ -24,7 +22,6 @@ export default function changePage(element: HTMLMenuElement | null){
         
     })
 }
-
 
 function whatIsPage ( data:string[], element:string ): boolean | string{
     for(const index in data){
@@ -50,5 +47,5 @@ function changeContent (page: string):void {
 }
 
 
-
 changePage(document.querySelector<HTMLMenuElement>("#nav-menu"))
+
