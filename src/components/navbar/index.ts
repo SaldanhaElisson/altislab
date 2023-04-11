@@ -7,7 +7,7 @@ document.querySelector<HTMLDivElement>('#main')!.innerHTML += `
 </div>  
   
   <div id="profile-content">
-    <img  id="profile-picture" src="/img/img-profile.png" alt="profile-picture">
+    <img  id="profile-picture" src="/img/img-profile.svg" alt="profile-picture">
     <h2 id="profile-name"> Olá, Dani</h2>
   </div>
 

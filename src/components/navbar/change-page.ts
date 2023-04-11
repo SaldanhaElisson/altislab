@@ -1,4 +1,5 @@
 import homeContent from "../../pages/home"
+import projectContent from "../../pages/projects"
 
 const pages = ["Início", "Confiugrações", "Equipamentos", "Projetos", "Horários", "Solicitações"]
 
@@ -6,15 +7,15 @@ interface IContentPages  {
     [key: string]: string
 }
 
-const contentPages:IContentPages = { Início: homeContent}
+const contentPages:IContentPages = { Início: homeContent, Projetos:projectContent }
 
 export default function changePage(element: HTMLMenuElement | null){
-    
+   
     element?.addEventListener("click", (e)  => {
         const target = e.target as HTMLElement
 
         const page = whatIsPage(pages, target.innerHTML)
-
+   
         if(typeof page == "string" && pages.includes(page)){
             changeContent(page);
         }
@@ -34,7 +35,6 @@ function whatIsPage ( data:string[], element:string ): boolean | string{
     return false
 }
 
-
 function changeContent (page = "Início"):void {
     document.querySelector<HTMLDivElement>('#title-card-page')!.innerHTML = page
 
@@ -46,7 +46,6 @@ function changeContent (page = "Início"):void {
     document.querySelector<HTMLDivElement>('#page-content')!.innerHTML = contentPages[page]
  
 }
-
 
 changePage(document.querySelector<HTMLMenuElement>("#nav-menu"))
 

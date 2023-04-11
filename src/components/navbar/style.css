@@ -79,7 +79,6 @@ nav{
     color: var(---color-white);
     font-weight: bolder;
 
-   
 }
 
 #nav-menu > li:hover {
@@ -94,6 +93,12 @@ nav{
 
 #nav-menu > li > p {
     margin-left: 1rem;
+}
+
+.active {
+    background-image: linear-gradient(to right, #121415 , #1A1A1A);
+
+    border-left: 3px solid var(---status-color-ok-dark);
 }
 
 

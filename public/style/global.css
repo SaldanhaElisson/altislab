@@ -24,7 +24,8 @@
     ---link-card-footer-details-color: #87C984;
     ---neutral-color-dark-05: #5D5D5D;
     ---pedding-color: #3E5055;
-    ---data-color-equipament-dashboard: #404040
+    ---data-color-equipament-dashboard: #404040;
+    ---button-search-color: #002F6C;
     
 }
 
@@ -47,3 +48,5 @@ p {
 .active {
     position: absolute;
 }
+
+

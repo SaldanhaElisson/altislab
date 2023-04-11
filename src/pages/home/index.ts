@@ -19,7 +19,6 @@ const homeContent: string = `
 
         ${renderRequestCard("Negado", "5d 12h 30min", "Fulano 3")}
 
-
         ${navPageLastsRequests}
       </div>
 
