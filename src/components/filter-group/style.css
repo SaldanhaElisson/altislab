@@ -1,18 +1,18 @@
-#projects-home-sections{
+#projects-home-sections {
     width: 100%;
 }
 
-i{
+i {
     font-weight: normal;
     font-style: normal;
 }
 
 
-#filter-group{
+#filter-group {
     position: relative;
 }
 
-#card-filter-group{
+#card-filter-group {
     width: 100%;
     height: 3.313rem;
 
@@ -21,26 +21,26 @@ i{
 
     box-shadow: 0px 0px 6px #00000029;
 
-   
-}   
 
-#card-filter-group > p {
+}
+
+#card-filter-group>p {
     color: var(---neutral-color-dark-05);
     font-weight: bold;
 }
 
-#filter-group > div {
+#filter-group>div {
     height: 9.375rem;
     width: 100%;
     box-shadow: 0px 3px 6px #00000029;
 }
 
 
-details[open] > #inputs-group {
+details[open]>#inputs-group {
     position: absolute;
 
     background-color: var(---color-white);
-    padding:1.25rem ;
+    padding: 1.25rem;
 }
 
 #inputs {
@@ -48,7 +48,7 @@ details[open] > #inputs-group {
     gap: 0.5rem;
 }
 
-#inputs > input {
+#inputs>input {
     height: 3.25rem;
 
     font-size: 1.125rem;
@@ -60,13 +60,13 @@ details[open] > #inputs-group {
 
 }
 
-#inputs > input::placeholder{
+#inputs>input::placeholder {
     font-family: var(--font-tile);
     font-size: 1.125rem;
-    
+
 }
 
-#filter-name{
+#filter-name {
     flex: 1;
 }
 
@@ -83,29 +83,29 @@ details[open] > #inputs-group {
 
     padding-left: 1.25rem;
 
-    background: url(../../../public/img/down-filled-triangular-arrow.svg) 95.5% 50% no-repeat ;
+    background: url(../../../public/img/down-filled-triangular-arrow.svg) 95.5% 50% no-repeat;
 
 }
 
-#filter-start-date{
+#filter-start-date {
     flex: 0.6;
 }
 
-#filter-end-date{
+#filter-end-date {
     flex: 0.5;
 }
 
 select {
     -webkit-appearance: none;
-    -moz-appearance:none;
-    appearance:none;
+    -moz-appearance: none;
+    appearance: none;
     width: 100%;
 
     padding-right: 20px;
 
 }
 
-#buttons-groups{
+#buttons-groups {
     display: flex;
     justify-content: end;
 
@@ -116,7 +116,7 @@ select {
     margin-top: 1.875rem;
 }
 
-#buttons-groups > button {
+#buttons-groups>button {
     width: 14.375rem;
     height: 2.25rem;
 
@@ -134,10 +134,10 @@ select {
 }
 
 
-#clear-filter{
-    background-color:  var(---neutral-color-dark-04);
+#clear-filter {
+    background-color: var(---neutral-color-dark-04);
 }
 
 #search {
-    background-color: var(---button-search-color) ;
+    background-color: var(---button-search-color);
 }

@@ -1,0 +1,32 @@
+.cardProjetcPersonContent {
+  display: flex;
+
+  align-items: center;
+}
+
+.cardProjetcPersonContent div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eeeeee;
+  border-radius: 100%;
+  box-shadow: 0px 3px 6px #00000029;
+
+  width: 3.75rem;
+  height: 3.75rem;
+
+  margin-right: 1rem;
+}
+
+.cardProjetcPersonContent div:first-of-type > span {
+  margin: 0;
+}
+
+.cardProjetcPersonContent div > p {
+  font-size: 0.75rem;
+}
+
+.cardProjetcPersonContent div p:first-of-type {
+  margin-top: 0.5rem;
+}

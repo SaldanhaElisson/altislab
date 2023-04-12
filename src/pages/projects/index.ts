@@ -1,20 +1,19 @@
+import renderBoxCard from "../../components/box-cards/renderBoxCars";
+import cardProjetcContent from "../../components/card-project-content";
+import renderCard from "../../components/card/rendeCard";
+import filterGroup from "../../components/filter-group";
 
-import renderBoxCard from "../../components/box-cards/renderBoxCars"
-import cardProjetcContent from "../../components/card-project-content"
-import renderCard from "../../components/card/rendeCard"
-import filterGroup from "../../components/filter-group"
+const cards: string = renderCard(cardProjetcContent);
 
-const cards:string  = renderCard(cardProjetcContent);
-
- const projectContent = `
+const projectHomeContent = `
    <div id="projects-home-sections"> 
         <h3> <i>Início / </i>Projetos </h3>
 
     ${filterGroup} 
      
-    ${renderBoxCard(cards)}
+    ${renderBoxCard(cards, 5)}
 
    </div>
-`
+`;
 
-export default projectContent
+export default projectHomeContent;

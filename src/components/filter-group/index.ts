@@ -27,6 +27,6 @@ const filterGroup = `
             </div> 
         </div>
     </details>
-`
+`;
 
-export default filterGroup
+export default filterGroup;

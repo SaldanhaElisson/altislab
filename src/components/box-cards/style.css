@@ -1,7 +1,6 @@
-
 #box-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
     gap: 1.25rem;
@@ -12,6 +11,19 @@
 
 }
 
-#content-box-cars div:last-of-type{
+#box-cards-person {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 1.25rem;
+
+    white-space: 56.25rem;
+
+    margin-top: 2.5rem;
+
+}
+
+#content-box-cars div:last-of-type {
     margin-right: 0.48889rem;
 }

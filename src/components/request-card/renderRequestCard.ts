@@ -1,23 +1,23 @@
 export default function renderRequestCard(
-    status: string,
-    hours: string,
-    person: string
-  ): string {
-    let classStatus;
-  
-    switch (status) {
-      case "Pendente":
-        classStatus = "pending";
-        break;
-      case "Atendido":
-        classStatus = "approved";
-        break;
-      case "Negado":
-        classStatus = "disapproved";
-        break;
-    }
-  
-    return `
+  status: string,
+  hours: string,
+  person: string
+): string {
+  let classStatus;
+
+  switch (status) {
+    case "Pendente":
+      classStatus = "pending";
+      break;
+    case "Atendido":
+      classStatus = "approved";
+      break;
+    case "Negado":
+      classStatus = "disapproved";
+      break;
+  }
+
+  return `
   
     <div>
     <details class="card-request"> 
@@ -65,4 +65,4 @@ export default function renderRequestCard(
     </div>
 
   `;
-  }
+}

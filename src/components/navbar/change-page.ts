@@ -1,51 +1,62 @@
-import homeContent from "../../pages/home"
-import projectContent from "../../pages/projects"
+import homeContent from "../../pages/home";
+import projectHomeContent from "../../pages/projects";
+import changeSubPages from "../../pages/projects/changeSubPages";
 
-const pages = ["Início", "Confiugrações", "Equipamentos", "Projetos", "Horários", "Solicitações"]
+const pages = [
+  "Início",
+  "Confiugrações",
+  "Equipamentos",
+  "Projetos",
+  "Horários",
+  "Solicitações",
+];
 
-interface IContentPages  {
-    [key: string]: string
+interface IContentPages {
+  [key: string]: string;
 }
 
-const contentPages:IContentPages = { Início: homeContent, Projetos:projectContent }
+const contentPages: IContentPages = {
+  Início: homeContent,
+  Projetos: projectHomeContent,
+};
 
-export default function changePage(element: HTMLMenuElement | null){
-   
-    element?.addEventListener("click", (e)  => {
-        const target = e.target as HTMLElement
+export default function changePage(element: HTMLMenuElement | null) {
+  element?.addEventListener("click", (e) => {
+    const target = e.target as HTMLElement;
 
-        const page = whatIsPage(pages, target.innerHTML)
-   
-        if(typeof page == "string" && pages.includes(page)){
-            changeContent(page);
-        }
-          return;
-    })
+    const page = whatIsPage(pages, target.innerHTML);
 
-    changeContent();
-}
-
-function whatIsPage ( data:string[], element:string ): boolean | string{
-    for(const index in data){
-
-     if(element.includes(data[index])){
-        return data[index]
-     }
+    if (typeof page == "string" && pages.includes(page)) {
+      changeContent(page);
     }
-    return false
+    return;
+  });
+
+  changeContent();
 }
 
-function changeContent (page = "Início"):void {
-    document.querySelector<HTMLDivElement>('#title-card-page')!.innerHTML = page
-
-    if(!contentPages[page]){
-        document.querySelector<HTMLDivElement>('#page-content')!.innerHTML = " Pagina em construção :)" 
-        return
+function whatIsPage(data: string[], element: string): boolean | string {
+  for (const index in data) {
+    if (element.includes(data[index])) {
+      return data[index];
     }
-
-    document.querySelector<HTMLDivElement>('#page-content')!.innerHTML = contentPages[page]
- 
+  }
+  return false;
 }
 
-changePage(document.querySelector<HTMLMenuElement>("#nav-menu"))
+function changeContent(page = "Início"): void {
+  document.querySelector<HTMLDivElement>("#title-card-page")!.innerHTML = page;
 
+  if (!contentPages[page]) {
+    document.querySelector<HTMLDivElement>("#page-content")!.innerHTML =
+      " Pagina em construção :)";
+    return;
+  }
+
+  document.querySelector<HTMLDivElement>("#page-content")!.innerHTML =
+    contentPages[page];
+}
+
+changePage(document.querySelector<HTMLMenuElement>("#nav-menu"));
+
+changeSubPages();

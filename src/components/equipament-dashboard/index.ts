@@ -1,7 +1,4 @@
-
-
-
-const equipamentDashboard =  `
+const equipamentDashboard = `
 
     <h3>Equipamentos</h3> 
 
@@ -26,6 +23,6 @@ const equipamentDashboard =  `
   </div>
 
 
-` 
+`;
 
 export default equipamentDashboard;

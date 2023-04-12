@@ -1,6 +1,6 @@
-import "./style.css"
+import "./style.css";
 
-document.querySelector<HTMLDivElement>('#main')!.innerHTML += ` 
+document.querySelector<HTMLDivElement>("#main")!.innerHTML += ` 
 <nav>
 <div id="div-icon-menu">
   <span class="material-symbols-rounded"> menu </span>
@@ -43,7 +43,4 @@ document.querySelector<HTMLDivElement>('#main')!.innerHTML += `
   </menu>
 
 </nav>
-`
-
-
-
+`;

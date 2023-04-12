@@ -4,8 +4,8 @@ header {
     align-items: center;
 
     padding-top: 1.063rem;
-    padding-left: 2.313rem ;
-    padding-right:  2.625rem;
+    padding-left: 2.313rem;
+    padding-right: 2.625rem;
     padding-bottom: 0.688rem;
 
     box-shadow: 0px 3px 6px #00000008;
@@ -13,7 +13,7 @@ header {
     width: 100%;
 }
 
-#box-first-letter-user{
+#box-first-letter-user {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ header {
 
 }
 
-#box-first-letter-user > p {
+#box-first-letter-user>p {
     color: var(---status-color-ok-dark);
 
     font-weight: bolder;

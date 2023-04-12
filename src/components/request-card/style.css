@@ -1,141 +1,132 @@
-
-#title-section-one{
-    display: flex;
+#title-section-one {
+  display: flex;
 }
-.material-symbols-outlined{
-    color: var(---neutral-color-dark-05);
-    margin-left: 1.75rem;
-    margin-right: 1rem;
-}
-
-.card-request > summary{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 68.813rem;
-    height: 5rem;
-
-    margin-top: 0.875rem;
-    margin-left: 1rem;
-
-    box-shadow: 0px 3px 6px #00000029;
-    padding: 0.875rem 1.25rem;
+.material-symbols-outlined {
+  color: var(---neutral-color-dark-05);
+  margin-left: 1.75rem;
+  margin-right: 1rem;
 }
 
-details>summary {
-    list-style: none;
+.card-request > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 68.813rem;
+  height: 5rem;
+
+  margin-top: 0.875rem;
+  margin-left: 1rem;
+
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 0.875rem 1.25rem;
+}
+
+details > summary {
+  list-style: none;
 }
 
 summary::-webkit-details-marker {
-    display: none;
+  display: none;
 }
 
 .text-card-group {
-    margin-left: 0.313rem;
+  margin-left: 0.313rem;
 }
 
 .text-card-group > h4 {
-    color: var(---color-dark);
-    font-size: 1.25rem;
+  color: var(---color-dark);
+  font-size: 1.25rem;
 }
 
 .text-card-group > p {
-    color: var(---neutral-color-dark-06);
-    font-weight: 500;
+  color: var(---neutral-color-dark-06);
+  font-weight: 500;
 }
 
-.status-group{
-    display: flex;
+.status-group {
+  display: flex;
 }
 
-.hours-group{
-    display: flex;
+.hours-group {
+  display: flex;
 }
 
 .hours-group > p {
-    font-size: 1.25rem;
-    color: var(---neutral-color-dark-06);
-    font-weight: bold;
+  font-size: 1.25rem;
+  color: var(---neutral-color-dark-06);
+  font-weight: bold;
 }
 
-.status{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 
-    width: 6.25rem;
-    height: 1.875rem;
+  width: 6.25rem;
+  height: 1.875rem;
 
-    border-radius: 1.313rem;
+  border-radius: 1.313rem;
 
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 
-    cursor: default;
-
+  cursor: default;
 }
 
 .status > p {
-    font-weight: bold;
-    font-size: 0.75rem;
+  font-weight: bold;
+  font-size: 0.75rem;
 
-    color: var(---color-white);  
+  color: var(---color-white);
 }
 
 .pending {
-    background-color: var(---pedding-color);
+  background-color: var(---pedding-color);
 }
 
-.approved{
-    background-color: var(---status-color-ok-dark);
+.approved {
+  background-color: var(---status-color-ok-dark);
 }
 
-.disapproved{
-    background-color: var(---status-color-critical-base)
+.disapproved {
+  background-color: var(---status-color-critical-base);
 }
 
 .card-details {
+  width: 68.813rem;
 
-    width: 68.813rem;
+  margin-left: 1rem;
 
-    margin-left: 1rem;
+  padding: 1.25rem;
+  padding-top: 0;
 
-    padding: 1.25rem;
-    padding-top: 0;
+  color: var(---neutral-color-dark-06);
 
-    color: var(---neutral-color-dark-06);
-
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 6px #00000029;
-   
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
 }
-
 
 .card-details .request-date {
-    margin-top: 1.875rem;
-    font-weight: bold;
-    color: var(---neutral-color-dark-04);
+  margin-top: 1.875rem;
+  font-weight: bold;
+  color: var(---neutral-color-dark-04);
 }
 
-
-details[open] > .card-details{
-    position: absolute;
+details[open] > .card-details {
+  position: absolute;
 }
 
+.card-details .deatils-card-footer {
+  width: 100%;
 
-.card-details .deatils-card-footer{
-    width: 100%;
-    
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 
-    font-size: 0.75rem;
-
+  font-size: 0.75rem;
 }
 
 .card-details .deatils-card-footer > a {
-color: var(---link-card-footer-details-color);
-
+  color: var(---link-card-footer-details-color);
 }
