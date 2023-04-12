@@ -11,7 +11,7 @@ const projectHomeContent = `
 
     ${filterGroup} 
      
-    ${renderBoxCard(cards, 5)}
+    ${renderBoxCard(cards, 12)}
 
    </div>
 `;
