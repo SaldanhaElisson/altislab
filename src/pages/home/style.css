@@ -3,8 +3,25 @@ h3 {
   color: var(---neutral-color-dark-05);
 }
 
+#home-sections{
+  width: 100%;
+  max-width: 89.75rem;
+}
+
 #home-sections section:first-of-type {
   display: flex;
+  justify-content: space-between;
+
+  margin-left: 1rem;
+  width: 100%;
+  max-width: 89.75rem;
+
+}
+
+
+#lasts-requests{
+  width: 100%;
+  min-width: 32rem;
 }
 
 #equipment-dashboard {
@@ -12,7 +29,7 @@ h3 {
   flex-direction: column;
   align-items: center;
 
-  width: 15.625rem;
+  width: 20.625rem;
   height: 19.063rem;
   padding: 1.25rem;
 
@@ -35,3 +52,5 @@ h3 {
 #title-section-two .material-symbols-outlined {
   margin-right: 0.625rem;
 }
+
+

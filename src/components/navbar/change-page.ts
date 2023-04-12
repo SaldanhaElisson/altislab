@@ -24,7 +24,7 @@ export default function changePage(element: HTMLMenuElement | null) {
   element?.addEventListener("click", (e) => {
     const target = e.target as HTMLElement;
 
-    const page = whatIsPage(pages, target.innerHTML);
+    const page = whatIsPage(pages, target);
 
     if (typeof page == "string" && pages.includes(page)) {
       changeContent(page);
@@ -35,9 +35,10 @@ export default function changePage(element: HTMLMenuElement | null) {
   changeContent();
 }
 
-function whatIsPage(data: string[], element: string): boolean | string {
+function whatIsPage(data: string[], element: HTMLElement): boolean | string {
+
   for (const index in data) {
-    if (element.includes(data[index])) {
+    if (element.className.includes(data[index]) ) {
       return data[index];
     }
   }

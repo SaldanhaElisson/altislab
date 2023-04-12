@@ -1,4 +1,4 @@
-import navPagesCards from "../nav-pages-cars";
+import navPagesCards from "../nav-pages-cards";
 
 export default function renderBoxCard(
   cards: string,
@@ -13,7 +13,7 @@ export default function renderBoxCard(
 
   return `
 
-        <div id="content-box-cars">  
+        <div id="content-box-cards" class="onNav">  
             <div id="${cardPersson ? "box-cards-person" : "box-cards"}"> 
                 ${totalCards}
             </div> 

@@ -1,18 +1,26 @@
 nav {
-  position: relative;
   display: flex;
   flex-direction: column;
 
   background-color: var(---color-dark);
 
-  height: 100%;
-  width: 24.563rem;
+  width: 100%;
+}
+
+nav:not(.close){
+  max-width: 24.563rem ;
+  min-width: 18.500rem;
+}
+
+nav.close{
+  width: 5rem;
+  align-items: center;
 }
 
 #div-icon-menu {
   position: absolute;
   top: 1.969rem;
-  left: 1.594rem;
+  left: 1rem;
   cursor: pointer;
 
   border-radius: 100%;
@@ -53,6 +61,7 @@ nav {
   width: 5.125rem;
   margin-top: 5.188rem;
 }
+
 #profile-name {
   margin-top: 0.375rem;
   margin-bottom: 1.125rem;
@@ -83,7 +92,7 @@ nav {
   border-left: 3px solid var(---status-color-ok-dark);
 }
 
-#nav-menu > li > span {
+ #nav-menu > li > span {
   margin-left: 1.594rem;
 }
 

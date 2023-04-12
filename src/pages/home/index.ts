@@ -1,12 +1,12 @@
 import equipamentDashboard from "../../components/equipament-dashboard";
-import navPagesCards from "../../components/nav-pages-cars";
+import navPagesCards from "../../components/nav-pages-cards";
 import newPersonTable from "../../components/new-person-table";
 import renderRequestCard from "../../components/request-card/renderRequestCard";
 
 const homeContent: string = `
   <div id="home-sections"> 
 
-    <section> 
+    <section class="onNav"> 
       <div id="lasts-requests">     
         <div id="title-section-one">
         <span class="material-symbols-outlined"> inventory </span>

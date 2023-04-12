@@ -1,4 +1,8 @@
 const newPersonTable = ` 
+
+
+<div class="table-content"> 
+
 <table>
     <tr align="center">
         <th>Nome</th>
@@ -63,8 +67,10 @@ const newPersonTable = `
         <td>02/02/2023</td>
     </tr>
     
-    
     </table> 
+
+</div> 
+
 
 `;
 

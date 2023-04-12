@@ -1,4 +1,4 @@
-import renderBoxCard from "../../components/box-cards/renderBoxCars";
+import renderBoxCard from "../../components/cards-box/renderBoxCars";
 import cardProjetcContent from "../../components/card-project-content";
 import renderCard from "../../components/card/rendeCard";
 import filterGroup from "../../components/filter-group";
