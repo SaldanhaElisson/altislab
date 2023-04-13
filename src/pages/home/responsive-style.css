@@ -1,4 +1,5 @@
 @media (max-width: 1300px){
+
     #main{
         height: 100%;
     }
@@ -6,12 +7,16 @@
     nav {
         min-height: 100vh;
     }
-   
+
     #home-sections section:first-of-type.onNav{
         flex-direction: column;
 
         justify-content: center;
         align-items: center;      
+    }
+
+    #box-card-page{
+        padding: 0.625rem;
     }
 
     #box-card-page.onNav{
@@ -54,8 +59,23 @@
 }
 
 
-
 @media (max-width: 730px){
+
+    #logo{
+        margin: auto;
+    }
+
+    #div-icon-menu {
+       top: 1rem;
+    }
+
+    #div-icon-menu > span {
+        color: black;
+    }
+
+    #navbar{
+        display: none;
+    }
 
     #home-sections section:first-of-type{
         margin-left: 0;
@@ -76,10 +96,7 @@
 }
 
 @media (max-width: 491px){
-    body, html {
-     font-size: 75%;
-    }
-
+   
     #lasts-requests {
         min-width: 20rem;
       }

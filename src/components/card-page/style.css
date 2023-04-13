@@ -14,7 +14,8 @@
   width: 100%;
   max-width: 92.375rem;
 
-  height: 48rem;
+  height: 100%;
+  min-height: 48rem;
   box-shadow: 0px 3px 6px #00000029;
 
   padding: 1.875rem;

@@ -4,7 +4,7 @@ import changeSubPages from "../../pages/projects/changeSubPages";
 
 const pages = [
   "Início",
-  "Confiugrações",
+  "Configurações",
   "Equipamentos",
   "Projetos",
   "Horários",
@@ -20,8 +20,9 @@ const contentPages: IContentPages = {
   Projetos: projectHomeContent,
 };
 
-export default function changePage(element: HTMLMenuElement | null) {
+export default function changePage(element: HTMLElement | null) {
   element?.addEventListener("click", (e) => {
+
     const target = e.target as HTMLElement;
 
     const page = whatIsPage(pages, target);
@@ -58,6 +59,6 @@ function changeContent(page = "Início"): void {
     contentPages[page];
 }
 
-changePage(document.querySelector<HTMLMenuElement>("#nav-menu"));
+changePage(document.querySelector<HTMLElement>("#navbar"));
 
 changeSubPages();
