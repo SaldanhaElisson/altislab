@@ -49,7 +49,7 @@ function changeContent(page = "Início"): void {
 
   if (!contentPages[page]) {
     document.querySelector<HTMLDivElement>("#page-content")!.innerHTML =
-      " Pagina em construção :)";
+      "<h2> 404 - Pagina não encontrada :( </h2>";
     return;
   }
 

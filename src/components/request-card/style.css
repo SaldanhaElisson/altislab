@@ -9,6 +9,7 @@
 
 .card-request {
   width: 100%;
+  cursor: pointer;
 }
 
 .card-request > summary {
@@ -121,6 +122,10 @@ summary::-webkit-details-marker {
 
 details[open] > .card-details {
   position: absolute;
+}
+
+details[open]:not(.open-card) > .card-details {
+  display: none;
 }
 
 .card-details .deatils-card-footer {
