@@ -1,25 +1,24 @@
 nav {
-  
   background-color: var(---color-dark);
 
   width: 100%;
 }
 
-.box-content{
+.box-content {
   display: flex;
   flex-direction: column;
 }
 
-.off{
+.off {
   display: none;
 }
 
-nav:not(.close){
-  max-width: 24.563rem ;
-  min-width: 18.500rem;
+nav:not(.close) {
+  max-width: 24.563rem;
+  min-width: 18.5rem;
 }
 
-nav.close{
+nav.close {
   width: 4rem;
   min-width: 4rem;
   align-items: center;
@@ -31,7 +30,7 @@ nav.close{
   left: 0.68rem;
   cursor: pointer;
 
-  z-index: 10;
+  z-index: 30;
 
   border-radius: 100%;
   width: 2.5rem;
@@ -102,7 +101,7 @@ nav.close{
   border-left: 3px solid var(---status-color-ok-dark);
 }
 
- .nav-menu > li > span {
+.nav-menu > li > span {
   margin-left: 1.594rem;
 }
 
@@ -116,9 +115,6 @@ nav.close{
   border-left: 3px solid var(---status-color-ok-dark);
 }
 
-
 .navOff > li > span {
   margin: auto;
 }
-
-

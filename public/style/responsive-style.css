@@ -1,0 +1,161 @@
+
+@media (max-width: 1300px){
+
+    #main{
+        height: 100%;
+    }
+
+    nav {
+        min-height: 100vh;
+    }
+
+    #box-card-page{
+        padding: 0.625rem;
+    }
+
+    #box-card-page.onNav{
+        height: 100%;
+        width: 60rem;
+    }
+
+    #card-page.onNav{
+        height: 100%;
+    }
+
+    #lasts-requests {
+        min-width: 20rem;
+      }
+
+}
+
+@media (max-width: 950px){ 
+    #home-sections section:first-of-type{
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;      
+    }
+
+    #equipment-dashboard{
+        margin: 0;
+        margin-top: 1.25rem;
+    }
+
+    #box-card-page{
+        height: 100%;
+    }
+
+    #card-page{
+        height: 100%;
+    }
+
+    #inputs{
+        flex-direction: column;
+    }
+
+    }
+
+@media (max-width: 730px){
+
+    #logo{
+        margin: auto;
+        width: 10rem;
+    }
+
+  
+
+    #navbar{
+        display: none;
+    }
+
+    #main.onNav {
+        overflow: hidden;
+    }
+
+    #navbar.close{
+        position: absolute;
+        display: block;
+        max-width: 24.563rem ;
+        min-width: 18.500rem;
+        z-index: 25;
+    }
+
+    #nav-open-content{
+        display: block;
+    }
+
+    #nav-close-content{
+        display: none;
+    }
+
+    #main.onNav{
+        height: 100vh;
+    }
+
+    #modal.onNav{
+        z-index: 20;
+        display: block;
+    }
+
+    #box-card-page.onNav{
+        width: 100%;
+    }
+  
+    #div-icon-menu > span {
+        color: black;
+    }
+
+    #div-icon-menu.onNav  > span {
+        color: var(---color-white);
+    }
+
+    #home-sections section:first-of-type{
+        margin-left: 0;
+    }
+
+    #box-card-page{
+        padding: 20px;
+    }
+
+    .card-request > summary{
+        flex-direction: column;
+        gap: 1rem;
+
+        min-height: 8rem;
+    }
+
+    details[open].onNav > .card-details {
+        display: none;
+    }
+
+    details[open] > #inputs-group {
+        height: 23rem;
+
+    }
+   
+}
+
+@media (max-width: 650px){
+   body, html {
+    font-size: 90%;
+   }
+}
+
+@media (max-width: 491px){
+    #box-card-page{
+        padding: 0;
+    }
+  
+
+      .content-details-project{
+        gap: 3rem;
+      }
+ }
+
+ @media (max-width: 400px){
+    body, html {
+     font-size: 80%;
+    }
+
+   
+ }

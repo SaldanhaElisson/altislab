@@ -22,7 +22,6 @@ const contentPages: IContentPages = {
 
 export default function changePage(element: HTMLElement | null) {
   element?.addEventListener("click", (e) => {
-
     const target = e.target as HTMLElement;
 
     const page = whatIsPage(pages, target);
@@ -37,9 +36,8 @@ export default function changePage(element: HTMLElement | null) {
 }
 
 function whatIsPage(data: string[], element: HTMLElement): boolean | string {
-
   for (const index in data) {
-    if (element.className.includes(data[index]) ) {
+    if (element.className.includes(data[index])) {
       return data[index];
     }
   }

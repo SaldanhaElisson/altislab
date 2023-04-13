@@ -11,7 +11,8 @@ import "../card/style.css";
 import "../card-project-content/style.css";
 import "../card-project-person-content/style.css";
 import "../../pages/projects/style.css";
-import "../../pages/home/responsive-style.css"
+import "../../../public/style/responsive-style.css";
+import "../modal/style.css";
 
 document.querySelector<HTMLDivElement>("#content")!.innerHTML += ` 
   

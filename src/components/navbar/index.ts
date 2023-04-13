@@ -1,4 +1,3 @@
-
 export const openNavContent = `
 <div id="nav-open-content" class="box-content" >  
   <div class="profile-content">
@@ -37,7 +36,7 @@ export const openNavContent = `
     </li>
   </menu>
   </div>
-`
+`;
 
 export const closeNavContent = `
 
@@ -72,7 +71,7 @@ export const closeNavContent = `
   </menu>
 
 </div>
-`
+`;
 
 document.querySelector<HTMLDivElement>("#main")!.innerHTML += ` 
 
@@ -86,4 +85,4 @@ document.querySelector<HTMLDivElement>("#main")!.innerHTML += `
     ${openNavContent}
     ${closeNavContent}
 </nav>
-`
+`;

@@ -3,25 +3,26 @@ h3 {
   color: var(---neutral-color-dark-05);
 }
 
-#home-sections{
+#home-sections {
   width: 100%;
   max-width: 89.75rem;
 }
 
-#home-sections section:first-of-type {
+#home-sections > section:first-of-type {
+  position: relative;
+
   display: flex;
   justify-content: space-between;
 
   margin-left: 1rem;
   width: 100%;
   max-width: 89.75rem;
-
 }
 
-
-#lasts-requests{
+#lasts-requests {
   width: 100%;
-  min-width: 32rem;
+  min-width: 20rem;
+  position: relative;
 }
 
 #equipment-dashboard {
@@ -52,5 +53,3 @@ h3 {
 #title-section-two .material-symbols-outlined {
   margin-right: 0.625rem;
 }
-
-

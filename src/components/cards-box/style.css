@@ -1,25 +1,28 @@
+#content-box-cards{
+    width: 100%;
+}
+
 #box-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr 1fr;
 
-    gap: 1.25rem;
+    justify-items: center;
 
-    white-space: 56.25rem;
+    gap: 2.25rem;
 
     margin-top: 2.5rem;
-
 }
 
 #box-cards-person {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr;
 
     gap: 1.25rem;
 
-    white-space: 56.25rem;
-
+    justify-items: center;
+    
     margin-top: 2.5rem;
 
 }

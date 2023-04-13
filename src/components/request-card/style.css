@@ -18,7 +18,7 @@
 
   height: 5rem;
   width: 100%;
-  
+
   margin-top: 0.875rem;
 
   box-shadow: 0px 3px 6px #00000029;
@@ -98,9 +98,11 @@ summary::-webkit-details-marker {
 }
 
 .card-details {
-  width: 68.813rem;
+  position: absolute;
+  z-index: 200;
 
-  margin-left: 1rem;
+  width: 100%;
+  max-width: 68.19rem;
 
   padding: 1.25rem;
   padding-top: 0;

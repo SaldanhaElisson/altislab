@@ -12,7 +12,6 @@ export default function renderBoxCard(
   }
 
   return `
-
         <div id="content-box-cards" class="onNav">  
             <div id="${cardPersson ? "box-cards-person" : "box-cards"}"> 
                 ${totalCards}

@@ -1,5 +1,4 @@
 #box-card-page {
- 
   display: flex;
   justify-content: center;
 
@@ -27,6 +26,6 @@
 
 article {
   margin-top: 1.75rem;
-    width: 100%;
-    max-width: 89.75rem;
+  width: 100%;
+  max-width: 89.75rem;
 }

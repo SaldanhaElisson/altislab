@@ -6,8 +6,8 @@ import renderRequestCard from "../../components/request-card/renderRequestCard";
 const homeContent: string = `
   <div id="home-sections"> 
 
-    <section class="onNav"> 
-      <div id="lasts-requests">     
+    <section class="off" > 
+      <div id="lasts-requests" class="offNav">     
         <div id="title-section-one">
         <span class="material-symbols-outlined"> inventory </span>
         <h3> Últimas solicitações </h3>

@@ -1,49 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap");
 
 * {
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
-    --font-titles: "Noto Sans", sans-serif;
-    --font-phrases: "Open Sans", sans-serif;
+  --font-titles: "Noto Sans", sans-serif;
+  --font-phrases: "Open Sans", sans-serif;
 
-    ---color-white: #fafafa;
-    ---color-dark: #1a1a1a;
-    ---color-dark-transparent: #ffffff2d;
-    ---neutral-color-dark-04: #919191;
-    ---neutral-color-dark-06: #888888;
-    ---neutral-color-light-01: #afafaf;
-    ---neutral-color-light-02: #c6c6c6;
-    ---status-color-critical-dark: #88000d;
-    ---status-color-critical-base: #472929;
-    ---status-color-ok-dark: #0e800d;
-    ---link-card-footer-details-color: #87c984;
-    ---neutral-color-dark-05: #5d5d5d;
-    ---pedding-color: #3e5055;
-    ---data-color-equipament-dashboard: #404040;
-    ---button-search-color: #002f6c;
+  ---color-white: #fafafa;
+  ---color-dark: #1a1a1a;
+  ---color-dark-transparent: #ffffff2d;
+  ---neutral-color-dark-04: #919191;
+  ---neutral-color-dark-06: #888888;
+  ---neutral-color-light-01: #afafaf;
+  ---neutral-color-light-02: #c6c6c6;
+  ---status-color-critical-dark: #88000d;
+  ---status-color-critical-base: #472929;
+  ---status-color-ok-dark: #0e800d;
+  ---link-card-footer-details-color: #87c984;
+  ---neutral-color-dark-05: #5d5d5d;
+  ---pedding-color: #3e5055;
+  ---data-color-equipament-dashboard: #404040;
+  ---button-search-color: #002f6c;
+  ---modal-page-color: #212529;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: var(--font-titles);
+  font-family: var(--font-titles);
 }
 
 p {
-    font-family: var(--font-phrases);
+  font-family: var(--font-phrases);
 }
 
 #main {
-    display: flex;
-    width: 100%;
-    height: 100vh;
+  display: flex;
+  width: 100%;
+  height: 100vh;
 }
 
 .active {
-    position: absolute;
+  position: absolute;
 }
