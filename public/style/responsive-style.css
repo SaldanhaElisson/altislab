@@ -62,8 +62,6 @@
         width: 10rem;
     }
 
-  
-
     #navbar{
         display: none;
     }
@@ -100,7 +98,11 @@
     #box-card-page.onNav{
         width: 100%;
     }
-  
+    
+    #div-icon-menu{
+       margin-top: -0.6rem;
+    }
+
     #div-icon-menu > span {
         color: black;
     }
